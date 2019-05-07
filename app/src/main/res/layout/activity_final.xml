@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/final_background"
+    tools:context=".Final">
+
+    <TextView
+        android:id="@+id/Final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#EBE63D3D"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/resultFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="resultFinal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textColor="#860730"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/excellent"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@drawable/excellent" />
+
+    <ImageView
+        android:id="@+id/good"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        app:srcCompat="@drawable/good" />
+
+    <ImageView
+        android:id="@+id/workHard"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@drawable/workhard" />
+
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:textSize="35dp"
+        android:background="#B4EBA09B"
+        android:textColor="#D83168"
+        android:text=" RESTART " />
+
+
+
+</RelativeLayout>

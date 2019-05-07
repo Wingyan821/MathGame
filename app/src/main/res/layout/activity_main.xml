@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/QuestionNumber"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#99D4EC"
+        android:text="Score : 0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/QuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="QuestionNumber"
+        android:textColor="#9FE7A5"
+        android:textStyle="italic"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/QuestionNumber"
+        android:layout_marginLeft="30dp"
+        android:textColor="#99D4EC"
+        android:text="05:00"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textStyle="bold"
+        android:textColor="#E0E9FF"
+        android:textSize="70dp" />
+
+    <EditText
+        android:id="@+id/anwserByInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Answer"
+        android:textColor="#0C1753"
+        android:inputType="number"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:gravity="center"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:textColor="#40148F"
+        android:background="#90966CE0"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#23000000"
+        android:textColor="#07209E"
+        android:text="Skip" />
+
+    <ImageView
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        app:srcCompat="@drawable/yes" />
+
+    <ImageView
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        app:srcCompat="@drawable/no" />
+
+    <ImageView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        app:srcCompat="@drawable/empty" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#3E498A"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="OK"
+        android:textColor="#B6DFF1"
+        android:background="#C83654DA"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/settingMain"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/settings"
+        android:layout_toRightOf="@id/OK"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/setting_background"
+    tools:context=".Setting">
+
+    <TextView
+        android:id="@+id/settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text=" Setting "
+        android:textStyle="bold"
+        android:textColor="#A3420B9C"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text=" Pitch "
+        android:textStyle="bold"
+        android:textColor="#E63259AA"
+        android:textSize="25dp" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_pitch"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:thumbTint="#ffffff"
+        android:background="#F5C7D6"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text=" Speed "
+        android:textStyle="bold"
+        android:textColor="#E63259AA"
+        android:textSize="25dp" />
+
+
+    <SeekBar
+        android:id="@+id/seek_bar_speed"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:thumbTint="#ffffff"
+        android:background="#F5C7D6"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/testingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:text=" testing "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text=" testing "
+        android:textColor="#4164E4"
+        android:background="#00000000"
+        android:textSize="30dp" />
+
+
+
+    <Button
+        android:id="@+id/Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:text=" Finish "
+        android:textColor="#C99134B9"
+        android:background="#00000000"
+        android:textStyle="italic"
+        android:textSize="65dp" />
+
+
+
+
+</RelativeLayout>
